@@ -181,6 +181,12 @@ select::-moz-selection{
 <script>
      var a =1 
     function o(){ 
+        let w=document.getElementById('dlr').value;
+        let x=document.getElementById('sor').value;
+        let y=document.getElementById('trk').value;
+        
+        if(w || x || y)
+            return;
 
             setTimeout(()=>
             setInterval(()=>{
@@ -302,6 +308,7 @@ function dlrt() {
     </body>
 
 </html>
+
 
 
 
